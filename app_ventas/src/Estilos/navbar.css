@@ -1,0 +1,63 @@
+.barranav{
+    width: 100vw;
+    text-align: center;
+}
+
+.ul1{
+    display: flex;
+    text-align: center;
+    height: 70px;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 0.75rem;
+    background-color: none;
+    box-shadow:inset 0px -90px 80px -50px #ffffff;
+}
+    
+
+.ul1 li{
+    font-family: Tahoma;
+    font-size: x-large;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ul1 li:hover{
+    transition: 0.5s;
+-webkit-transform: scale(1.1, 1.1);
+transform: scale(1.1, 1.1);
+}
+    
+
+#botonl{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+#bt1{
+    --tw-bg-opacity: 1;
+    background-color: rgba(99, 102, 241, var(--tw-bg-opacity));
+    padding: 2px;
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    border-radius: 0.5rem;
+    --tw-shadow: 5px 5px 4px 2px rgb(133, 133, 133);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgb(163, 163, 163)), var(--tw-ring-shadow, 0 0 rgb(155, 155, 155)), var(--tw-shadow);
+    border: none;
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#bt1:hover{
+    background-color: #4338CA;
+    transition: 0.5s;
+-webkit-transform: scale(1.1, 1.1);
+transform: scale(1.1, 1.1);
+}

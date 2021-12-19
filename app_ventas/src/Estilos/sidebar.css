@@ -1,0 +1,70 @@
+
+#sidebar{
+    width: 18rem;
+    height: 107vh;
+    background-color: rgba(255, 255, 255, 0.678);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow:inset -30px 0px 49px -20px #ffffff;
+}
+
+#foto{
+    border-radius: 100px;
+    width: 140px;
+    height: 140px;
+}
+
+#logo{
+    margin-bottom: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+ 
+#infosb label{
+    padding: 4px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Tahoma;
+    font-size: large;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#infosb{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+    
+
+#botoncs{
+    color: #362ca5;
+    margin-top: 11rem;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.678);
+    font-size: 18px;
+    font-family: Tahoma;
+    cursor: pointer;
+    
+}
+
+#botoncs:hover{
+    transition: 0.5s;
+    -webkit-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    background-color: #6f65da;
+    color: white;
+}

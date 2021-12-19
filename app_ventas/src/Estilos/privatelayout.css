@@ -1,0 +1,63 @@
+#private{
+    display: flex;
+    height: 100vh;
+}
+    
+.mains{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    margin-top: 10px;
+}
+
+#noauth{
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    padding: 10px;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+ 
+#noauth2{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    color: #122b4a;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Tahoma';
+
+}
+
+#btnhome{
+    font-size: 30px;
+}
+
+.loading{
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    padding: 10px;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+    
+
+    

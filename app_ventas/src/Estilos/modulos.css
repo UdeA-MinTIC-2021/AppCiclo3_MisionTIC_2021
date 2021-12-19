@@ -1,0 +1,60 @@
+h1{
+    color: #122b4a;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Tahoma';
+}
+
+#BotonesModulos{
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 120px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#boton1 , #boton2 , #boton3{
+    text-align: center;
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 70px;
+    font-size: 20px;
+    font-family: 'Tahoma';
+    align-items: center;
+    border-radius: 7px;
+    border: 5px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.521);
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+   }
+
+
+
+
+#boton1:hover{
+    transition: 0.5s;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+
+#boton2:hover{
+    transition: 0.5s;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+
+#boton3:hover{
+    transition: 0.5s;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}

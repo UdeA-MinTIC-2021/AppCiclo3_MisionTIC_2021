@@ -1,0 +1,69 @@
+
+#Titulo {
+    font-size:50px; 
+    color: rgb(0, 0, 71); 
+    text-align: center; 
+    font-family:"Verdana";
+    text-shadow: 3px 3px 4px rgb(87, 83, 83);
+    }
+
+
+
+.botonesventas{
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    justify-content: center;
+}
+
+#boton1vt, #boton2vt{
+    text-align: center;
+    display: flex;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 80px;
+    font-size: 20px;
+    font-family: 'Tahoma';
+    align-items: center;
+    border-radius: 7px;
+    border: 5px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.425);
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    }
+    
+/*
+a{
+    text-decoration: none;
+    color: none;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px;
+    width: 400px;
+    height: 80px;
+    justify-content: center;
+    margin-top: 20px;
+}
+*/
+
+#boton2vt:active{
+    color: none;
+}
+
+#boton1vt:hover, #boton2vt:hover {
+    transition: 0.5s;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+    
+    

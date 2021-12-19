@@ -1,0 +1,121 @@
+
+
+h1 {
+    font-size:35px; 
+    color: rgb(0, 0, 71); 
+    text-align: center; 
+    font-family:'Tahoma';
+    text-shadow: 3px 3px 4px rgb(87, 83, 83);
+    }
+
+.Formulario2{
+    
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.425);
+    display: -ms-grid;
+    display: grid;
+    height: 900px;
+    width: auto;
+    margin: auto;
+    
+}
+
+.interno2{
+    margin-top: 90px;
+    width: auto;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 5px;
+    
+}
+
+#comentarios{
+    text-align: center;
+    border-radius: 7px;
+}
+
+textarea{
+    border-radius: 7px;
+}
+
+.interno2 input{
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 5px;
+    border-color:rgb(209, 209, 209);
+    width: auto;
+}
+
+.interno2 label{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Tahoma';
+    }
+
+#docs{
+    font-size: 20px;
+    border-radius: 7px;
+    margin-bottom: 5px; 
+}
+
+.boton{
+    margin-top: 30px;
+}
+
+#radiob{
+    width: auto;
+    height: auto;
+}
+
+
+
+#boton_enviar{
+        color:white;
+        margin: 0px 30px;
+        width: 140px;
+        height: 60px;
+        font-size: 20px;
+        font-style:Large;
+        font-family:Verdana;
+        border-radius: 15px;
+        border: 0px;
+        background-image: -webkit-linear-gradient(top, #5bd6a3, #5bd6a3);
+        background-image: -moz-linear-gradient(top, #5bd6a3, #5bd6a3);
+        background-image: -ms-linear-gradient(top, #5bd6a3, #5bd6a3);
+        background-image: -o-linear-gradient(top, #5bd6a3, #5bd6a3);
+        background-image: linear-gradient(to bottom,#5bd6a3, #5bd6a3);
+        border-color: #5bd6a3;
+        
+}
+
+#boton_enviar:hover {
+    color:white;
+    background-color: rgb(140, 140, 140);
+    transition: 0.5s;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    background-image: -webkit-linear-gradient(top, #5bd6a3, #5bd6a3);
+    background-image: -moz-linear-gradient(top, #5bd6a3, #5bd6a3);
+    background-image: -ms-linear-gradient(top, #5bd6a3, #5bd6a3);
+    background-image: -o-linear-gradient(top, #5bd6a3, #5bd6a3);
+    background-image: linear-gradient(to bottom,#5bd6a3, #5bd6a3);
+    border-color: #5bd6a3;
+    
+}
+
+#span1{
+    color: #5bd6a3;
+    font-size: x-large;
+    font-family: 'Verdana';
+}
+
+#span2{
+    color: #ff004c;
+    font-size: x-large;
+    font-family: 'Verdana';
+}
+
+
+
+
+

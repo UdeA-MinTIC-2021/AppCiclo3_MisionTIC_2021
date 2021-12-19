@@ -1,0 +1,11 @@
+#footer3{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Tahoma;
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+    background-color: none;
+    box-shadow:inset 0px 0px 160px -60px #ffffff;
+}

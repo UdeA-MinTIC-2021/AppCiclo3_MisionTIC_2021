@@ -1,0 +1,248 @@
+ .textoIS{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .SS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #Salessoft{
+    color: rgb(0, 0, 71);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Tahoma';
+    text-shadow: 3px 3px 4px rgb(87, 83, 83);
+  }
+
+  #IS{
+    color: rgb(0, 0, 71);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Tahoma';
+    margin-top: 60px;
+  }
+
+  .formulario{
+    text-align: center;
+    width: auto;
+    height:auto;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    display: -ms-grid;
+    display: grid;
+  }
+
+  .entradaTextoCedula{
+    
+    display: -ms-grid;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: auto;
+    
+  }
+
+  .entradaTextoContraseña{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-top: 0px;
+  }
+
+  .entradaTextoCedula input, .entradaTextoContraseña input{
+    background-color: rgba(255, 255, 255, 0.425);
+    border: 1px solid #d8d8d8;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0 .5em;
+    height: 50px;
+    width: 350px;
+    outline: none;
+    color: #363636;
+  }
+    
+    
+
+  .formulario label{
+    font-family: 'Tahoma';
+    font-size: 10px;
+    text-align: center;
+    transition: all .3s ease;
+    border-radius: 2mm;
+    padding: 5px;
+    margin: auto;
+    
+  }
+
+  
+
+  .LogoSS{
+    size: 2cm;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  
+  }
+
+  #logo{
+    size: 2cm;
+    width: 2cm;
+  }
+  
+ 
+.botonacceder{
+  margin-top: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+  
+}
+ 
+  
+  .botonregistrate{
+    font-size: 18px Tahoma;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding: 10px;
+    justify-content: center;
+    border-color: #ffffff;
+    
+  }
+  
+ #acceder{
+    color: #ffffff;
+    background-color: #667eea;
+    border: solid;
+    font: 20px Tahoma; 
+    font-weight: 100;   
+    margin-right: 0px;
+    margin-top: 20px;
+    border-radius: 9px;
+    border-color: #667eea;
+    width: 350px;
+    height: 48px;
+    cursor: pointer;
+    
+  }
+
+    
+  #acceder:hover {
+    background-color: #4338CA;
+    border-color: #4338CA;
+    transition: 0.5s;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    }
+  
+  #registrar{
+    margin-left: 90px;
+    margin-right: auto;
+    color: #34448b;
+    background: none;    
+    font: 21px Tahoma;
+    border: none;
+    font-weight: bold;
+    cursor: pointer; 
+  }
+  
+  .textor{
+    font-size: 19px;
+    font-family: Tahoma;
+  }
+
+  
+  #registrar:hover {
+    transition: 0.5s;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    }
+
+ 
+
+
+
+  #olvide{
+    margin-left: auto;
+    margin-right: auto;
+    color: #667eea;
+    background: none;    
+    font: 17px Tahoma;
+    border: none;
+    font-weight: bold;
+  }
+
+  .olvideContraseña{
+    text-align: center;
+    margin-top: 9px;
+    
+  }
+
+  
+.Google:hover {
+    transition: 0.5s;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    }
+
+#botonGoogle{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  
+  
+}
+
+#logoGoogle{
+  width: 20px;
+  border-right: 2mm;
+}
+
+.Botones_1{
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  display: flex;
+  padding: 10px;
+  
+}
+
+.Google{
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+  width: 350px;
+  display: flex;
+  padding: 10px;
+}
+
+  link, a{
+    text-decoration: none;
+    color: none;
+}
+
+  
