@@ -13,7 +13,7 @@ const Sidebar = () => {
 
    
     const cerrarSesion = () =>{
-        logout({ returnTo: 'https://young-fjord-29465.herokuapp.com/' })
+        logout({ returnTo: 'https://salessoft.herokuapp.com/' })
         localStorage.setItem('token', null)
     }
     
