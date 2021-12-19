@@ -40,7 +40,7 @@ const Privatelayout = ({ children }) => {
             },(err)=>{
                 console.log('error', err)
                 setLoadingUserInformation(false)
-                logout({ returnTo: 'https://young-fjord-29465.herokuapp.com/' })
+                logout({ returnTo: 'https://salessoft.herokuapp.com' })
             });
                      
         };

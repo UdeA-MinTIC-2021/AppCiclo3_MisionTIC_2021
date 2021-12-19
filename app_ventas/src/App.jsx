@@ -25,7 +25,7 @@ function App() {
     <Auth0Provider
       domain="misiontic-app.us.auth0.com"
       clientId="HXwPE3SMDNt8qqvrtpFWN2Esld0BQXsj"
-      redirectUri="https://agile-springs-40899.herokuapp.com/admin"
+      redirectUri="https://salessoft.herokuapp.com/admin"
       audience="api-autenticacion-ventas-mintic"
     >
       <UserContext.Provider value={{ userData, setUserData }}>

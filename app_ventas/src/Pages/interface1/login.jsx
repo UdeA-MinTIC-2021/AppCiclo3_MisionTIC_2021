@@ -20,7 +20,7 @@ const Login = () => {
             <span id='Salessoft'><b>SalesSoft</b></span>
             </div>
             <div className="textoIS">
-              <span id="IS"><b>Iniciar sesión en tu cuenta DESPLEGADA POR FIN6</b></span>
+              <span id="IS"><b>Iniciar sesión en tu cuenta</b></span>
             </div>
 
             <form action="" className="formulario">
