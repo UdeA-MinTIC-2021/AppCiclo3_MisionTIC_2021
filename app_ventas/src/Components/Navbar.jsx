@@ -7,7 +7,7 @@ import Header from './Header'
 const Navbar = () => {
     return (
         <div>
-            <Header>SalesSof</Header>
+            <Header>SalesSoft</Header>
             
             <nav className='barranav'>
                 <ul className='ul1'>
