@@ -38,7 +38,7 @@ const Privatelayout = ({ children }) => {
                 setUserData(response.data)
                 setLoadingUserInformation(false)
             },(err)=>{
-                console.log('error', err)
+                console.log('error detectado en privatelayout: ', err)
                 setLoadingUserInformation(false)
                 logout({ returnTo: 'https://salessoft.herokuapp.com/' })
             });
