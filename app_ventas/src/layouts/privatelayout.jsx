@@ -22,8 +22,6 @@ const Privatelayout = ({ children }) => {
 
 
         const fetchAuth0Token = async () =>{
-
-
           // 1. Pedir token a Auth0
           setLoadingUserInformation(true)
            const accessToken = await getAccessTokenSilently({
@@ -31,7 +29,7 @@ const Privatelayout = ({ children }) => {
             });
             // 2. Recibir token de Auth0
             localStorage.setItem('token', accessToken);
-            console.log('este es el token que llego de Auth0', accessToken);
+            console.log('este es el token que llego de Auth0::', accessToken);
             // 3. Enviarle el token al Backend
             await obtenerDatosUsuario((response)=>{
                 console.log('response con datos de usuario: ', response);
@@ -67,8 +65,7 @@ const Privatelayout = ({ children }) => {
     
       <div id="private">
         <Sidebar />
-        <div> estoy con sesion iniciada</div>
-          <main className="mains">{children}</main>
+        <main className="mains">{children}</main>
       </div>
     );
 };
