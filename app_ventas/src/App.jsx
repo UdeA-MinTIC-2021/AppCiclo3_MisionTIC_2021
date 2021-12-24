@@ -77,8 +77,11 @@ function App() {
                   </Route>
 
                   <Route path='/admin'>
+                  <PrivateRoute roleList={['Administrador', 'Administrador2', 'Vendedor']}>
                     <Modulos />
+                  </PrivateRoute>
                   </Route>
+
                 </Switch>
               </Privatelayout>
             </Route>

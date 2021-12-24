@@ -50,9 +50,7 @@ const Privatelayout = ({ children }) => {
 
     if(isLoading || loadingUserInformation) 
     return <div className='loading'> <ReactLoading  type="cylon" color="#00FF40" delay={10} height={'20%'} width={'20%'}/> </div>
-    else(
-      <div>no tengo sesion inicada</div>
-    )
+    
 
     if(!isAuthenticated){
          <div id='noauth' > 
