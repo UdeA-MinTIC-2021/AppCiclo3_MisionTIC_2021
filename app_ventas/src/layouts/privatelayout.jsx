@@ -31,7 +31,7 @@ const Privatelayout = ({ children }) => {
             });
             // 2. Recibir token de Auth0
             localStorage.setItem('token', accessToken);
-            console.log('este es el token que llego de Auth000000', accessToken);
+            console.log('este es el token que llego de Auth0', accessToken);
             // 3. Enviarle el token al Backend
             await obtenerDatosUsuario((response)=>{
                 console.log('response con datos de usuario: ', response);
@@ -40,7 +40,7 @@ const Privatelayout = ({ children }) => {
             },(err)=>{
                 console.log('error', err)
                 setLoadingUserInformation(false)
-                logout({ returnTo: 'https://salessoft.herokuapp.com' })
+                logout({ returnTo: 'https://salessoft.herokuapp.com/' })
             });
                      
         };
@@ -51,7 +51,10 @@ const Privatelayout = ({ children }) => {
     }, [isAuthenticated, getAccessTokenSilently, setUserData, logout]);
 
     if(isLoading || loadingUserInformation) 
-    return <div className='loading'> <ReactLoading  type="cylon" color="#00FF40" delay={10} height={'20%'} width={'20%'} /></div>
+    return <div className='loading'> <ReactLoading  type="cylon" color="#00FF40" delay={10} height={'20%'} width={'20%'}/> </div>
+    else(
+      <div>no tengo sesion inicada</div>
+    )
 
     if(!isAuthenticated){
          <div id='noauth' > 
@@ -64,6 +67,7 @@ const Privatelayout = ({ children }) => {
     
       <div id="private">
         <Sidebar />
+        <div> estoy con sesion iniciada</div>
           <main className="mains">{children}</main>
       </div>
     );
