@@ -76,10 +76,10 @@ function App() {
                     </PrivateRoute>
                   </Route>
 
-                  <Route path='/admin'>
-                  <PrivateRoute roleList={['Administrador', 'Administrador2', 'Vendedor']}>
-                    <Modulos />
-                  </PrivateRoute>
+                  <Route path='/admin' exact>
+                    <PrivateRoute roleList={['Administrador', 'Administrador2', 'Vendedor']}>
+                      <Modulos />
+                    </PrivateRoute>
                   </Route>
 
                 </Switch>

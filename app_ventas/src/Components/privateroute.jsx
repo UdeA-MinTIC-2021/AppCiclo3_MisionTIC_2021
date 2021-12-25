@@ -11,8 +11,8 @@ const PrivateRoute = ({roleList, children}) => {
     else{
         return  <div id='noauth' >
                     <Header>
-                        <div id='noauth2'>No tienes autorización para ingresar a este módulo</div>
-                        <h2>Ponte en contacto con el Administrador del sistema</h2>
+                        <p id='noauth2'>No tienes autorización para ingresar a este módulo</p>
+                        <p>Ponte en contacto con el Administrador del sistema</p>
                     </Header>
                 </div>
         }
