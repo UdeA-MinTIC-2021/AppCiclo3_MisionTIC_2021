@@ -165,7 +165,7 @@ const FilaVenta = ({ventas, setEjecutarConsulta}) =>{
       <td><input type="text" value={infoNuevaVenta.nombre} onChange={e=>setInfoNuevaVenta({...infoNuevaVenta, nombre: e.target.value})}/></td>
       <td><input type="text" readOnly value={infoNuevaVenta.precio} onchange={e=>setInfoNuevaVenta({...infoNuevaVenta, precio: e.target.value})} /></td>
       <td><input type="text" value={infoNuevaVenta.unidades} onChange={e=>setInfoNuevaVenta({...infoNuevaVenta, unidades: e.target.value})}/></td>
-      <td><input type="text" readOnly value={infoNuevaVenta.valorventa} onchange={e=>setInfoNuevaVenta({...infoNuevaVenta, tventa: '100'})}/></td>
+      <td><input type="text" readOnly value={infoNuevaVenta.valorventa} onchange={e=>setInfoNuevaVenta({...infoNuevaVenta, tventa: e.target.value })}/></td>
       <td><select required value={infoNuevaVenta.vendedor} defaultValue={0} onChange={e=>setInfoNuevaVenta({...infoNuevaVenta, vendedor:e.target.value})}>
       <option disabled value={0}>Seleccione un vendedor</option>
                         {vendedores.map((el) => {
